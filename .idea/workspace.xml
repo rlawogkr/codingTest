@@ -1,34 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="" />
+    <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;2023-01-02&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/bfs/그림_1926.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/bfs/그림_1926.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/bfs/미로탐색_2178.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/bfs/미로탐색_2178.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/bfs/불_4179.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/bfs/불_4179.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/bfs/토마토_7576.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/bfs/토마토_7576.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/binarySearch/가장긴증가하는부분수열2_12015.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/binarySearch/가장긴증가하는부분수열2_12015.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/brutalForce/적어도대부분의배수_1145.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/brutalForce/적어도대부분의배수_1145.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/dataStructure/쇠막대기_10799.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/dataStructure/쇠막대기_10799.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/dataStructure/에디터_1406.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/dataStructure/에디터_1406.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/dataStructure/큐_10845.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/dataStructure/큐_10845.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/가장긴증가하는부분수열_11053.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/가장긴증가하는부분수열_11053.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/피보나치수2_2748.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/피보나치수2_2748.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/implementation/알파벳개수_10808.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/implementation/알파벳개수_10808.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sandBox/ArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sandBox/ArrayListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sandBox/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sandBox/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2ZkaD3ART94tSIZLhKTuSiiwU19" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;애플리케이션.ArrayListTest.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.sandBox.Main.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.가장긴증가하는부분수열2_12015.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.가장긴증가하는부분수열_11053.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.그림_1926.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.미로탐색_2178.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.쇠막대기_10799.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.알파벳개수_10808.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.에디터_1406.executor&quot;: &quot;Debug&quot;,
+    &quot;애플리케이션.적어도대부분의배수_1145.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.큐_10845.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.토마토_7576.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.피보나치수2_2748.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="애플리케이션.토마토_7576">
+    <configuration name="쇠막대기_10799" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.dataStructure.쇠막대기_10799" />
+      <module name="codingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.dataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="큐_10845" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.dataStructure.큐_10845" />
+      <module name="codingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.dataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="그림_1926" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.bfs.그림_1926" />
+      <module name="codingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.bfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="미로탐색_2178" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.bfs.미로탐색_2178" />
+      <module name="codingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.bfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="토마토_7576" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.bfs.토마토_7576" />
+      <module name="codingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.bfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.토마토_7576" />
+        <item itemvalue="애플리케이션.미로탐색_2178" />
+        <item itemvalue="애플리케이션.그림_1926" />
+        <item itemvalue="애플리케이션.쇠막대기_10799" />
+        <item itemvalue="애플리케이션.큐_10845" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-5f3ff201" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
@@ -37,10 +175,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702968407640</updated>
+      <workItem from="1702968408667" duration="21890000" />
+      <workItem from="1703054526987" duration="1843000" />
+      <workItem from="1703325431137" duration="642000" />
+      <workItem from="1703326392330" duration="2013000" />
+      <workItem from="1703739638667" duration="1251000" />
+      <workItem from="1703850773126" duration="18190000" />
+      <workItem from="1704086412779" duration="12909000" />
+      <workItem from="1704175929085" duration="4145000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;2023-01-02&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;2023-01-02&quot;" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
