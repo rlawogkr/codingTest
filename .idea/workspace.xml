@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;2023-01-02&quot;">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/recursion/곱셈_1629.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/recursion/하노이탑이동순서_11729.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sandBox/ModTest.java" afterDir="false" />
+    <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;2023-01-03&quot;">
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/recursion/종이의개수_1780.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sandBox/MinSumCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sandBox/compareLambdaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sandBox/insertTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sandBox/returnXY.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swea/winterAlgorithmTest/ai의반란최후의전쟁.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swea/winterAlgorithmTest/삼각김밥월드.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/recursion/하노이탑이동순서_11729.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/recursion/하노이탑이동순서_11729.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sandBox/ArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sandBox/ArrayListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sandBox/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sandBox/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,44 +46,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "프로젝트",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true",
-    "애플리케이션.ArrayListTest.executor": "Run",
-    "애플리케이션.Main.executor": "Run",
-    "애플리케이션.ModTest.executor": "Run",
-    "애플리케이션.sandBox.Main.executor": "Run",
-    "애플리케이션.가장긴증가하는부분수열2_12015.executor": "Run",
-    "애플리케이션.가장긴증가하는부분수열_11053.executor": "Run",
-    "애플리케이션.곱셈_1629.executor": "Run",
-    "애플리케이션.그림_1926.executor": "Run",
-    "애플리케이션.미로탐색_2178.executor": "Run",
-    "애플리케이션.쇠막대기_10799.executor": "Run",
-    "애플리케이션.숨바꼭질_1697.executor": "Run",
-    "애플리케이션.알파벳개수_10808.executor": "Run",
-    "애플리케이션.에디터_1406.executor": "Debug",
-    "애플리케이션.적어도대부분의배수_1145.executor": "Run",
-    "애플리케이션.큐_10845.executor": "Run",
-    "애플리케이션.토마토_7576.executor": "Run",
-    "애플리케이션.피보나치수2_2748.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;애플리케이션.ArrayListTest.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.GalaxyActivation.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.MinSumCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ModTest.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.PascalTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ai의반란최후의전쟁.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.compareLambdaTest.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.insertTest.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.returnXY.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.sandBox.Main.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.가장긴증가하는부분수열2_12015.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.가장긴증가하는부분수열_11053.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.곱셈_1629.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.그림_1926.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.미로탐색_2178.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.삼각김밥Test.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.삼각김밥월드.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.쇠막대기_10799.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.숨바꼭질_1697.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.알파벳개수_10808.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.에디터_1406.executor&quot;: &quot;Debug&quot;,
+    &quot;애플리케이션.적어도대부분의배수_1145.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.종이의개수_1780.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.큐_10845.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.토마토_7576.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.피보나치수2_2748.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.하노이탑이동순서_11729.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="애플리케이션.곱셈_1629">
-    <configuration name="ModTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sandBox.ModTest" />
+}</component>
+  <component name="RunManager" selected="애플리케이션.ai의반란최후의전쟁">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sandBox.Main" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -88,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="곱셈_1629" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.recursion.곱셈_1629" />
+    <configuration name="MinSumCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sandBox.MinSumCalculator" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.recursion.*" />
+          <option name="PATTERN" value="sandBox.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="숨바꼭질_1697" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.bfs.숨바꼭질_1697" />
+    <configuration name="ai의반란최후의전쟁" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swea.winterAlgorithmTest.ai의반란최후의전쟁" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.bfs.*" />
+          <option name="PATTERN" value="swea.winterAlgorithmTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="미로탐색_2178" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.bfs.미로탐색_2178" />
+    <configuration name="compareLambdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sandBox.compareLambdaTest" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.bfs.*" />
+          <option name="PATTERN" value="sandBox.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="토마토_7576" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.bfs.토마토_7576" />
+    <configuration name="insertTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sandBox.insertTest" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.bfs.*" />
+          <option name="PATTERN" value="sandBox.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.곱셈_1629" />
-        <item itemvalue="애플리케이션.ModTest" />
-        <item itemvalue="애플리케이션.숨바꼭질_1697" />
-        <item itemvalue="애플리케이션.토마토_7576" />
-        <item itemvalue="애플리케이션.미로탐색_2178" />
+        <item itemvalue="애플리케이션.ai의반란최후의전쟁" />
+        <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="애플리케이션.MinSumCalculator" />
+        <item itemvalue="애플리케이션.insertTest" />
+        <item itemvalue="애플리케이션.compareLambdaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +191,9 @@
       <workItem from="1703850773126" duration="18190000" />
       <workItem from="1704086412779" duration="12909000" />
       <workItem from="1704175929085" duration="9787000" />
-      <workItem from="1704276011294" duration="9328000" />
+      <workItem from="1704276011294" duration="14087000" />
+      <workItem from="1704372252711" duration="49025000" />
+      <workItem from="1704892963185" duration="483000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2023-01-02&quot;">
       <option name="closed" value="true" />
@@ -191,11 +211,30 @@
       <option name="project" value="LOCAL" />
       <updated>1704189804738</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;2023-01-02&quot;">
+      <option name="closed" value="true" />
+      <created>1704288870497</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704288870497</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;2023-01-02&quot;" />
