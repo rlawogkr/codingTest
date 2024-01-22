@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;2023-01-11&quot;">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/backtracking/근손실_18429.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/일로만들기_1463.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/recursion/Z_1074.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/sort/수정렬하기5_15688.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/sort/카드_11652.java" afterDir="false" />
+    <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;2023-01-15&quot;">
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/backtracking/부분수열의합_1182.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/MakeOne_1463.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/RGB거리_1149.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/계단오르기_2579.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/일이삼더하기_9095.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/다리놓기_1010.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/BuildingABridge_1010.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/일로만들기_1463.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/일로만들기_1463.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +62,7 @@
     "애플리케이션.Factorial.executor": "Run",
     "애플리케이션.GalaxyActivation.executor": "Run",
     "애플리케이션.Main.executor": "Run",
+    "애플리케이션.MakeOne_1463.executor": "Run",
     "애플리케이션.MinSumCalculator.executor": "Run",
     "애플리케이션.ModTest.executor": "Run",
     "애플리케이션.PascalTriangle.executor": "Run",
@@ -78,6 +79,7 @@
     "애플리케이션.근손실_18429.executor": "Run",
     "애플리케이션.다리놓기_1010.executor": "Run",
     "애플리케이션.미로탐색_2178.executor": "Run",
+    "애플리케이션.부분수열의합_1182.executor": "Run",
     "애플리케이션.삼각김밥Test.executor": "Run",
     "애플리케이션.삼각김밥월드.executor": "Run",
     "애플리케이션.쇠막대기_10799.executor": "Run",
@@ -85,6 +87,7 @@
     "애플리케이션.숨바꼭질_1697.executor": "Run",
     "애플리케이션.알파벳개수_10808.executor": "Run",
     "애플리케이션.에디터_1406.executor": "Debug",
+    "애플리케이션.일로만들기_1463.executor": "Run",
     "애플리케이션.적어도대부분의배수_1145.executor": "Run",
     "애플리케이션.종이의개수_1780.executor": "Run",
     "애플리케이션.카드_11652.executor": "Run",
@@ -94,35 +97,9 @@
     "애플리케이션.하노이탑이동순서_11729.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.근손실_18429">
-    <configuration name="수정렬하기5_15688" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.sort.수정렬하기5_15688" />
-      <module name="codingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baekjoon.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Z_1074" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.recursion.Z_1074" />
-      <module name="codingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baekjoon.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="다리놓기_1010" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.dynamicProgramming.다리놓기_1010" />
+  <component name="RunManager" selected="애플리케이션.MakeOne_1463">
+    <configuration name="MakeOne_1463" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.dynamicProgramming.MakeOne_1463" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -147,6 +124,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="부분수열의합_1182" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.backtracking.부분수열의합_1182" />
+      <module name="codingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="일로만들기_1463" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.dynamicProgramming.일로만들기_1463" />
+      <module name="codingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.dynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="근손실_18429" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekjoon.backtracking.근손실_18429" />
       <module name="codingTest" />
@@ -162,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.MakeOne_1463" />
+        <item itemvalue="애플리케이션.일로만들기_1463" />
+        <item itemvalue="애플리케이션.부분수열의합_1182" />
         <item itemvalue="애플리케이션.근손실_18429" />
         <item itemvalue="애플리케이션.카드_11652" />
-        <item itemvalue="애플리케이션.수정렬하기5_15688" />
-        <item itemvalue="애플리케이션.Z_1074" />
-        <item itemvalue="애플리케이션.다리놓기_1010" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +202,8 @@
       <workItem from="1704951680601" duration="146000" />
       <workItem from="1704951834934" duration="8866000" />
       <workItem from="1704961311890" duration="2390000" />
-      <workItem from="1705320844943" duration="3494000" />
+      <workItem from="1705320844943" duration="8289000" />
+      <workItem from="1705910086181" duration="6471000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2023-01-02&quot;">
       <option name="closed" value="true" />
@@ -241,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704939797384</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&quot;2023-01-11&quot;">
+      <option name="closed" value="true" />
+      <created>1705324610395</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705324610395</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
