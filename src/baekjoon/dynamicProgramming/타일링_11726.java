@@ -11,13 +11,13 @@ public class 타일링_11726 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int n = Integer.parseInt(br.readLine());
-        int[] sum = new int[n];
+        int[] sum = new int[n+1]; //배열의 크기를 n+1로 설정.
 
         //initial value
         sum[0] = 1;
         sum[1] = 2;
 
-        for(int i = 2;i<n;i++){
+        for(int i = 2;i<=n;i++){
             sum[i] = (sum[i-1]+sum[i-2])%10007;
         }
         System.out.println(sum[n-1]);
