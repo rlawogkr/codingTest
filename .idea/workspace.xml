@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;[Feat] 큐 뻘짓 및 two stack 풀이&quot;">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/Coin_9084.java" afterDir="false" />
+    <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;[Feat] PriorityQueueTest 및 익명클래스 공부&quot;">
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/priorityQueue/카드정렬하기_1715.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sandBox/GenericTypeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +40,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -54,11 +59,14 @@
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true",
+    "애플리케이션.AbsoluteValueHeap_11286.executor": "Run",
+    "애플리케이션.AnonymousClassTest.executor": "Run",
     "애플리케이션.ArrayListTest.executor": "Run",
     "애플리케이션.Coin_9084.executor": "Run",
     "애플리케이션.ExceptionTest.executor": "Run",
     "애플리케이션.Factorial.executor": "Run",
     "애플리케이션.GalaxyActivation.executor": "Run",
+    "애플리케이션.GenericTypeTest.executor": "Run",
     "애플리케이션.LinkedListTest.executor": "Run",
     "애플리케이션.Main.executor": "Run",
     "애플리케이션.MakeOne_1463.executor": "Run",
@@ -66,6 +74,7 @@
     "애플리케이션.ModTest.executor": "Run",
     "애플리케이션.NQueen_9663.executor": "Run",
     "애플리케이션.PascalTriangle.executor": "Run",
+    "애플리케이션.PriorityQueueTest.executor": "Run",
     "애플리케이션.Z_1074.executor": "Run",
     "애플리케이션.ai의반란최후의전쟁.executor": "Run",
     "애플리케이션.boj_1644.executor": "Run",
@@ -102,6 +111,7 @@
     "애플리케이션.적어도대부분의배수_1145.executor": "Run",
     "애플리케이션.종이의개수_1780.executor": "Run",
     "애플리케이션.카드_11652.executor": "Run",
+    "애플리케이션.카드정렬하기_1715.executor": "Run",
     "애플리케이션.큐_10845.executor": "Run",
     "애플리케이션.키로거_5397.executor": "Run",
     "애플리케이션.타일링_11726.executor": "Run",
@@ -120,13 +130,13 @@
       <recent name="baekjoon.greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Coin_9084">
-    <configuration name="Coin_9084" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.dynamicProgramming.Coin_9084" />
+  <component name="RunManager" selected="애플리케이션.GenericTypeTest">
+    <configuration name="AbsoluteValueHeap_11286" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.priorityQueue.AbsoluteValueHeap_11286" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.dynamicProgramming.*" />
+          <option name="PATTERN" value="baekjoon.priorityQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,8 +144,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sandBox.LinkedListTest" />
+    <configuration name="AnonymousClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sandBox.AnonymousClassTest" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -147,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="키로거_5397" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.dataStructure.키로거_5397" />
+    <configuration name="GenericTypeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sandBox.GenericTypeTest" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.dataStructure.*" />
+          <option name="PATTERN" value="sandBox.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_1644" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.twoPointer.boj_1644" />
+    <configuration name="PriorityQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sandBox.PriorityQueueTest" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.twoPointer.*" />
+          <option name="PATTERN" value="sandBox.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_2461" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.twoPointer.boj_2461" />
+    <configuration name="카드정렬하기_1715" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.priorityQueue.카드정렬하기_1715" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.twoPointer.*" />
+          <option name="PATTERN" value="baekjoon.priorityQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Coin_9084" />
-        <item itemvalue="애플리케이션.LinkedListTest" />
-        <item itemvalue="애플리케이션.키로거_5397" />
-        <item itemvalue="애플리케이션.boj_2461" />
-        <item itemvalue="애플리케이션.boj_1644" />
+        <item itemvalue="애플리케이션.GenericTypeTest" />
+        <item itemvalue="애플리케이션.카드정렬하기_1715" />
+        <item itemvalue="애플리케이션.AbsoluteValueHeap_11286" />
+        <item itemvalue="애플리케이션.AnonymousClassTest" />
+        <item itemvalue="애플리케이션.PriorityQueueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +246,8 @@
       <workItem from="1707630658933" duration="40360000" />
       <workItem from="1707802311667" duration="6000" />
       <workItem from="1707802323468" duration="11783000" />
-      <workItem from="1707834248129" duration="4890000" />
+      <workItem from="1707834248129" duration="14680000" />
+      <workItem from="1708000743171" duration="1510000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2023-01-02&quot;">
       <option name="closed" value="true" />
@@ -334,7 +345,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707812989410</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="&quot;[Feat] dp Coin 1문제&quot;">
+      <option name="closed" value="true" />
+      <created>1707880684564</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1707880684564</updated>
+    </task>
+    <task id="LOCAL-00014" summary="&quot;[Feat] PriorityQueueTest 및 익명클래스 공부&quot;">
+      <option name="closed" value="true" />
+      <created>1707890533501</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1707890533501</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +386,9 @@
     <MESSAGE value="&quot;2023-01-24&quot;" />
     <MESSAGE value="&quot;[Feat] BFS 복습 및 투포인터&quot;" />
     <MESSAGE value="&quot;[Feat] 큐 뻘짓 및 two stack 풀이&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;[Feat] 큐 뻘짓 및 two stack 풀이&quot;" />
+    <MESSAGE value="&quot;[Feat] dp Coin 1문제&quot;" />
+    <MESSAGE value="&quot;[Feat] PriorityQueueTest 및 익명클래스 공부&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;[Feat] PriorityQueueTest 및 익명클래스 공부&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
