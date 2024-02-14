@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;[Feat] BFS 복습 및 투포인터&quot;">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/dataStructure/키로거_5397.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/twoPointer/boj_1644.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/twoPointer/boj_2461.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sandBox/LinkedListTest.java" afterDir="false" />
+    <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;[Feat] 큐 뻘짓 및 two stack 풀이&quot;">
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/Coin_9084.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sandBox/ArrayListTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +55,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.ArrayListTest.executor": "Run",
+    "애플리케이션.Coin_9084.executor": "Run",
     "애플리케이션.ExceptionTest.executor": "Run",
     "애플리케이션.Factorial.executor": "Run",
     "애플리케이션.GalaxyActivation.executor": "Run",
@@ -123,13 +120,13 @@
       <recent name="baekjoon.greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.LinkedListTest">
-    <configuration name="LinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sandBox.LinkedListTest" />
+  <component name="RunManager" selected="애플리케이션.Coin_9084">
+    <configuration name="Coin_9084" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.dynamicProgramming.Coin_9084" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sandBox.*" />
+          <option name="PATTERN" value="baekjoon.dynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="불_4179" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.bfs.불_4179" />
+    <configuration name="LinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sandBox.LinkedListTest" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.bfs.*" />
+          <option name="PATTERN" value="sandBox.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Coin_9084" />
         <item itemvalue="애플리케이션.LinkedListTest" />
         <item itemvalue="애플리케이션.키로거_5397" />
         <item itemvalue="애플리케이션.boj_2461" />
         <item itemvalue="애플리케이션.boj_1644" />
-        <item itemvalue="애플리케이션.불_4179" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +235,8 @@
       <workItem from="1707061233634" duration="344000" />
       <workItem from="1707630658933" duration="40360000" />
       <workItem from="1707802311667" duration="6000" />
-      <workItem from="1707802323468" duration="9262000" />
+      <workItem from="1707802323468" duration="11783000" />
+      <workItem from="1707834248129" duration="4890000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2023-01-02&quot;">
       <option name="closed" value="true" />
@@ -312,7 +310,31 @@
       <option name="project" value="LOCAL" />
       <updated>1707664897071</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="&quot;[Feat] 큐 뻘짓 및 two stack 풀이&quot;">
+      <option name="closed" value="true" />
+      <created>1707812976031</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707812976031</updated>
+    </task>
+    <task id="LOCAL-00011" summary="&quot;[Feat] 큐 뻘짓 및 two stack 풀이&quot;">
+      <option name="closed" value="true" />
+      <created>1707812984077</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707812984077</updated>
+    </task>
+    <task id="LOCAL-00012" summary="&quot;[Feat] 큐 뻘짓 및 two stack 풀이&quot;">
+      <option name="closed" value="true" />
+      <created>1707812989410</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1707812989410</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +358,8 @@
     <MESSAGE value="&quot;2023-01-23&quot;" />
     <MESSAGE value="&quot;2023-01-24&quot;" />
     <MESSAGE value="&quot;[Feat] BFS 복습 및 투포인터&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;[Feat] BFS 복습 및 투포인터&quot;" />
+    <MESSAGE value="&quot;[Feat] 큐 뻘짓 및 two stack 풀이&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;[Feat] 큐 뻘짓 및 two stack 풀이&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
