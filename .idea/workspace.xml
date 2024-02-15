@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;[Feat] 큐 뻘짓 및 two stack 풀이&quot;">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/Coin_9084.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/backtracking/boj_14888.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +68,7 @@
     "애플리케이션.PascalTriangle.executor": "Run",
     "애플리케이션.Z_1074.executor": "Run",
     "애플리케이션.ai의반란최후의전쟁.executor": "Run",
+    "애플리케이션.boj_14888.executor": "Run",
     "애플리케이션.boj_1644.executor": "Run",
     "애플리케이션.boj_2461.executor": "Run",
     "애플리케이션.compareLambdaTest.executor": "Run",
@@ -120,7 +121,7 @@
       <recent name="baekjoon.greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Coin_9084">
+  <component name="RunManager" selected="애플리케이션.boj_14888">
     <configuration name="Coin_9084" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekjoon.dynamicProgramming.Coin_9084" />
       <module name="codingTest" />
@@ -160,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_1644" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.twoPointer.boj_1644" />
+    <configuration name="boj_14888" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.backtracking.boj_14888" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.twoPointer.*" />
+          <option name="PATTERN" value="baekjoon.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.boj_14888" />
         <item itemvalue="애플리케이션.Coin_9084" />
         <item itemvalue="애플리케이션.LinkedListTest" />
         <item itemvalue="애플리케이션.키로거_5397" />
         <item itemvalue="애플리케이션.boj_2461" />
-        <item itemvalue="애플리케이션.boj_1644" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +335,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707812989410</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="&quot;[Feat] 큐 뻘짓 및 two stack 풀이&quot;">
+      <option name="closed" value="true" />
+      <created>1708002488273</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1708002488273</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
