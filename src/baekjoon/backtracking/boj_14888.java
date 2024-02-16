@@ -15,7 +15,6 @@ public class boj_14888 {
     static int max = Integer.MIN_VALUE;
     static int min = Integer.MAX_VALUE;
 
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         n = Integer.parseInt(br.readLine());
