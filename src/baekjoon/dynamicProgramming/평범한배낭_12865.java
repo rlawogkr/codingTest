@@ -15,28 +15,29 @@ public class 평범한배낭_12865 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        n = Integer.parseInt(st.nextToken());
-        k = Integer.parseInt(st.nextToken());//최대 넣을 수 있는 무게
 
-        //값 입력
-        bags = new int[n][2]; // 각 물건의 무게(W)와 해당 물건의 가치(V)가 주어짐. 입력수는 모두 정수.
-        for (int i = 0; i < n; i++) {
+        n = Integer.parseInt(st.nextToken());
+        k = Integer.parseInt(st.nextToken());
+        bags = new int[n + 1][2];
+
+        for (int i = 1; i <= n; i++) {
             st = new StringTokenizer(br.readLine());
-            bags[i][0] = Integer.parseInt(st.nextToken());//w
-            bags[i][1] = Integer.parseInt(st.nextToken());//v
+            bags[i][0] = Integer.parseInt(st.nextToken());//무게
+            bags[i][1] = Integer.parseInt(st.nextToken());//가치
         }
 
-
-
-        int[] dp = new int[k + 1];//각 인덱스는 무게. value값은 실제 가치의 합.
-        dp[k] = Integer.MIN_VALUE;
-        //dp
-        for (int i = 0; i < n; i++) {
-            for (int j = k; j >= bags[i][0]; j--) {
-                dp[j] = Math.max(dp[j], dp[j - bags[i][0]] + bags[i][1]);
+        int[][] dp = new int[n + 1][k + 1]; // dp[i][j]: i번째 물건까지 고려하고, j무게까지 넣을 수 있을 때의 최대 가치.
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= k; j++) {
+                if (bags[i][0] <= j) { // i번째 물건을 넣을 수 있는 경우
+                    dp[i][j] = Math.max(dp[i - 1][j], dp[i - 1][j - bags[i][0]] + bags[i][1]);
+                } else {
+                    dp[i][j] = dp[i - 1][j];
+                }
             }
         }
-        System.out.println(dp[k]);
+
+        System.out.println(dp[n][k]);
         br.close();
     }
 }

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;[Feat] 백트래킹 풀이(backtraking)&quot;">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/평범한배낭_12865.java" afterDir="false" />
+    <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;[Feat] dp 풀이 실패&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/backtracking/boj_14888.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/backtracking/boj_14888.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/평범한배낭_12865.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/평범한배낭_12865.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -353,7 +352,39 @@
       <option name="project" value="LOCAL" />
       <updated>1708013237495</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="&quot;[Feat] dp 풀이 실패&quot;">
+      <option name="closed" value="true" />
+      <created>1708093549472</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1708093549472</updated>
+    </task>
+    <task id="LOCAL-00016" summary="&quot;[Feat] dp 풀이 실패&quot;">
+      <option name="closed" value="true" />
+      <created>1708093566522</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1708093566522</updated>
+    </task>
+    <task id="LOCAL-00017" summary="&quot;[Feat] dp 풀이 실패&quot;">
+      <option name="closed" value="true" />
+      <created>1708093581387</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1708093581387</updated>
+    </task>
+    <task id="LOCAL-00018" summary="&quot;[Feat] dp 풀이 실패&quot;">
+      <option name="closed" value="true" />
+      <created>1708093601611</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1708093601611</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +410,8 @@
     <MESSAGE value="&quot;[Feat] BFS 복습 및 투포인터&quot;" />
     <MESSAGE value="&quot;[Feat] 큐 뻘짓 및 two stack 풀이&quot;" />
     <MESSAGE value="&quot;[Feat] 백트래킹 풀이(backtraking)&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;[Feat] 백트래킹 풀이(backtraking)&quot;" />
+    <MESSAGE value="&quot;[Feat] dp 풀이 실패&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;[Feat] dp 풀이 실패&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
