@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;[Feat] dp 풀이 실패&quot;">
+    <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;[Feat] dp 풀이 다시 풀 필요 있음&quot;">
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/dataStructure/StackSequence_1874.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/priorityQueue/MergeFile3_13975.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/평범한배낭_12865.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/평범한배낭_12865.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,10 +63,12 @@
     "애플리케이션.LinkedListTest.executor": "Run",
     "애플리케이션.Main.executor": "Run",
     "애플리케이션.MakeOne_1463.executor": "Run",
+    "애플리케이션.MergeFile3_13975.executor": "Run",
     "애플리케이션.MinSumCalculator.executor": "Run",
     "애플리케이션.ModTest.executor": "Run",
     "애플리케이션.NQueen_9663.executor": "Run",
     "애플리케이션.PascalTriangle.executor": "Run",
+    "애플리케이션.StackSequence_1874.executor": "Run",
     "애플리케이션.Z_1074.executor": "Run",
     "애플리케이션.ai의반란최후의전쟁.executor": "Run",
     "애플리케이션.boj_14888.executor": "Run",
@@ -122,7 +125,7 @@
       <recent name="baekjoon.greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.평범한배낭_12865">
+  <component name="RunManager" selected="애플리케이션.StackSequence_1874">
     <configuration name="Coin_9084" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekjoon.dynamicProgramming.Coin_9084" />
       <module name="codingTest" />
@@ -136,12 +139,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sandBox.LinkedListTest" />
+    <configuration name="MergeFile3_13975" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.priorityQueue.MergeFile3_13975" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sandBox.*" />
+          <option name="PATTERN" value="baekjoon.priorityQueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackSequence_1874" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.dataStructure.StackSequence_1874" />
+      <module name="codingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.dataStructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,19 +171,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="baekjoon.dynamicProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="키로거_5397" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.dataStructure.키로거_5397" />
-      <module name="codingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baekjoon.dataStructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.StackSequence_1874" />
+        <item itemvalue="애플리케이션.MergeFile3_13975" />
         <item itemvalue="애플리케이션.평범한배낭_12865" />
         <item itemvalue="애플리케이션.boj_14888" />
         <item itemvalue="애플리케이션.Coin_9084" />
-        <item itemvalue="애플리케이션.LinkedListTest" />
-        <item itemvalue="애플리케이션.키로거_5397" />
       </list>
     </recent_temporary>
   </component>
@@ -384,7 +387,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708093601611</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="&quot;[Feat] dp 풀이 다시 풀 필요 있음&quot;">
+      <option name="closed" value="true" />
+      <created>1708094943322</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1708094943322</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +422,8 @@
     <MESSAGE value="&quot;[Feat] 큐 뻘짓 및 two stack 풀이&quot;" />
     <MESSAGE value="&quot;[Feat] 백트래킹 풀이(backtraking)&quot;" />
     <MESSAGE value="&quot;[Feat] dp 풀이 실패&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;[Feat] dp 풀이 실패&quot;" />
+    <MESSAGE value="&quot;[Feat] dp 풀이 다시 풀 필요 있음&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;[Feat] dp 풀이 다시 풀 필요 있음&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
