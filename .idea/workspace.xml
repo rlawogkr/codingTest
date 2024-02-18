@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;[Feat] dp 풀이 다시 풀 필요 있음&quot;">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/dataStructure/StackSequence_1874.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/priorityQueue/MergeFile3_13975.java" afterDir="false" />
+    <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;HashSet 풀이&quot;">
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/dataStructure/boj_19583.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/priorityQueue/MaxHeap_11279.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/priorityQueue/MinHeap_1927.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/priorityQueue/boj_2075.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +65,9 @@
     "애플리케이션.LinkedListTest.executor": "Run",
     "애플리케이션.Main.executor": "Run",
     "애플리케이션.MakeOne_1463.executor": "Run",
+    "애플리케이션.MaxHeap_11279.executor": "Run",
     "애플리케이션.MergeFile3_13975.executor": "Run",
+    "애플리케이션.MinHeap_1927.executor": "Run",
     "애플리케이션.MinSumCalculator.executor": "Run",
     "애플리케이션.ModTest.executor": "Run",
     "애플리케이션.NQueen_9663.executor": "Run",
@@ -71,8 +75,10 @@
     "애플리케이션.StackSequence_1874.executor": "Run",
     "애플리케이션.Z_1074.executor": "Run",
     "애플리케이션.ai의반란최후의전쟁.executor": "Run",
+    "애플리케이션.boj_11478.executor": "Run",
     "애플리케이션.boj_14888.executor": "Run",
     "애플리케이션.boj_1644.executor": "Run",
+    "애플리케이션.boj_2075.executor": "Run",
     "애플리케이션.boj_2461.executor": "Run",
     "애플리케이션.compareLambdaTest.executor": "Run",
     "애플리케이션.insertTest.executor": "Run",
@@ -125,13 +131,13 @@
       <recent name="baekjoon.greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.StackSequence_1874">
-    <configuration name="Coin_9084" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.dynamicProgramming.Coin_9084" />
+  <component name="RunManager" selected="애플리케이션.MaxHeap_11279">
+    <configuration name="MaxHeap_11279" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.priorityQueue.MaxHeap_11279" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.dynamicProgramming.*" />
+          <option name="PATTERN" value="baekjoon.priorityQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,8 +145,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeFile3_13975" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.priorityQueue.MergeFile3_13975" />
+    <configuration name="MinHeap_1927" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.priorityQueue.MinHeap_1927" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -165,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="평범한배낭_12865" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.dynamicProgramming.평범한배낭_12865" />
+    <configuration name="boj_11478" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.dataStructure.boj_11478" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.dynamicProgramming.*" />
+          <option name="PATTERN" value="baekjoon.dataStructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_14888" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.backtracking.boj_14888" />
+    <configuration name="boj_2075" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.priorityQueue.boj_2075" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.backtracking.*" />
+          <option name="PATTERN" value="baekjoon.priorityQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.MaxHeap_11279" />
+        <item itemvalue="애플리케이션.boj_2075" />
+        <item itemvalue="애플리케이션.MinHeap_1927" />
+        <item itemvalue="애플리케이션.boj_11478" />
         <item itemvalue="애플리케이션.StackSequence_1874" />
-        <item itemvalue="애플리케이션.MergeFile3_13975" />
-        <item itemvalue="애플리케이션.평범한배낭_12865" />
-        <item itemvalue="애플리케이션.boj_14888" />
-        <item itemvalue="애플리케이션.Coin_9084" />
       </list>
     </recent_temporary>
   </component>
@@ -242,6 +248,8 @@
       <workItem from="1707802311667" duration="6000" />
       <workItem from="1707802323468" duration="11783000" />
       <workItem from="1707834248129" duration="4890000" />
+      <workItem from="1708263187652" duration="4034000" />
+      <workItem from="1708345608857" duration="3778000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2023-01-02&quot;">
       <option name="closed" value="true" />
@@ -395,7 +403,31 @@
       <option name="project" value="LOCAL" />
       <updated>1708094943322</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="&quot;Stack&quot;">
+      <option name="closed" value="true" />
+      <created>1708103320245</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1708103320245</updated>
+    </task>
+    <task id="LOCAL-00021" summary="&quot;HashSet 풀이&quot;">
+      <option name="closed" value="true" />
+      <created>1708266014319</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1708266014319</updated>
+    </task>
+    <task id="LOCAL-00022" summary="&quot;HashSet 풀이&quot;">
+      <option name="closed" value="true" />
+      <created>1708266032993</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1708266032993</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +455,9 @@
     <MESSAGE value="&quot;[Feat] 백트래킹 풀이(backtraking)&quot;" />
     <MESSAGE value="&quot;[Feat] dp 풀이 실패&quot;" />
     <MESSAGE value="&quot;[Feat] dp 풀이 다시 풀 필요 있음&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;[Feat] dp 풀이 다시 풀 필요 있음&quot;" />
+    <MESSAGE value="&quot;Stack&quot;" />
+    <MESSAGE value="&quot;HashSet 풀이&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;HashSet 풀이&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
