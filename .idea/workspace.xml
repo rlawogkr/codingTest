@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;two pointer 풀이&quot;">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/bfs/Boj_7562.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/Boj_11049.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/Boj_15989.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/graph/Boj_11724_bfs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/graph/Boj_11724_dfs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/graph/Boj_11725.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/graph/Boj_1991.java" afterDir="false" />
+    <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;tree 풀이&quot;">
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/topologicalSorting/Boj_2252.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/topologicalSorting/Boj_2623.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/twoPointer/boj_20922.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/twoPointer/Boj_20922.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +60,8 @@
     "애플리케이션.Boj_11724_dfs.executor": "Run",
     "애플리케이션.Boj_11725.executor": "Run",
     "애플리케이션.Boj_15989.executor": "Run",
+    "애플리케이션.Boj_2252.executor": "Run",
+    "애플리케이션.Boj_2623.executor": "Run",
     "애플리케이션.Boj_7562.executor": "Run",
     "애플리케이션.Coin_9084.executor": "Run",
     "애플리케이션.ExceptionTest.executor": "Run",
@@ -139,7 +135,7 @@
       <recent name="baekjoon.greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Boj_11725">
+  <component name="RunManager" selected="애플리케이션.Boj_2623">
     <configuration name="Boj_11724_bfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekjoon.graph.Boj_11724_bfs" />
       <module name="codingTest" />
@@ -179,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Boj_15989" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.dynamicProgramming.Boj_15989" />
+    <configuration name="Boj_2252" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.topologicalSorting.Boj_2252" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.dynamicProgramming.*" />
+          <option name="PATTERN" value="baekjoon.topologicalSorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Boj_7562" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.bfs.Boj_7562" />
+    <configuration name="Boj_2623" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.topologicalSorting.Boj_2623" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.bfs.*" />
+          <option name="PATTERN" value="baekjoon.topologicalSorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Boj_2623" />
+        <item itemvalue="애플리케이션.Boj_2252" />
         <item itemvalue="애플리케이션.Boj_11725" />
         <item itemvalue="애플리케이션.Boj_11724_dfs" />
         <item itemvalue="애플리케이션.Boj_11724_bfs" />
-        <item itemvalue="애플리케이션.Boj_15989" />
-        <item itemvalue="애플리케이션.Boj_7562" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +255,7 @@
       <workItem from="1708692766161" duration="13784000" />
       <workItem from="1708758166198" duration="35000" />
       <workItem from="1708830744655" duration="1506000" />
-      <workItem from="1708913333996" duration="11806000" />
+      <workItem from="1708913333996" duration="21252000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2023-01-02&quot;">
       <option name="closed" value="true" />
@@ -429,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708696981667</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="&quot;tree 풀이&quot;">
+      <option name="closed" value="true" />
+      <created>1708934681232</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1708934681232</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +462,8 @@
     <MESSAGE value="&quot;[Feat] dp 풀이 실패&quot;" />
     <MESSAGE value="&quot;[Feat] dp 풀이 다시 풀 필요 있음&quot;" />
     <MESSAGE value="&quot;two pointer 풀이&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;two pointer 풀이&quot;" />
+    <MESSAGE value="&quot;tree 풀이&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;tree 풀이&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
