@@ -3,7 +3,7 @@ package baekjoon.twoPointer;
 import java.util.*;
 import java.io.*;
 
-public class boj_20922 {
+public class Boj_20922 {
     static int n, k;
 
     public static void main(String[] args) throws IOException {
