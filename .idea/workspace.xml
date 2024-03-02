@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;topological Sort&quot;">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/binarySearch/Boj_12738.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/Boj_11054.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/Boj_2631.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/topologicalSorting/Boj_2056.java" afterDir="false" />
+    <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;LCS&quot;">
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/binarySearch/Boj_10816.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/binarySearch/Boj_18870.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/binarySearch/Boj_1920.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/binarySearch/Boj_1920_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/binarySearch/Boj_2110.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/Boj_2293.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/sort/Boj_10814.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/sort/Boj_10989.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/sort/Boj_1108.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/sort/Boj_11650.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/sort/Boj_1181.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/Boj_11054.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/Boj_11054.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +66,24 @@
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.ArrayListTest.executor": "Run",
+    "애플리케이션.Boj_10814.executor": "Run",
+    "애플리케이션.Boj_10816.executor": "Run",
+    "애플리케이션.Boj_10989.executor": "Run",
     "애플리케이션.Boj_11054.executor": "Run",
+    "애플리케이션.Boj_1108.executor": "Run",
+    "애플리케이션.Boj_11650.executor": "Run",
     "애플리케이션.Boj_11724.executor": "Run",
     "애플리케이션.Boj_11724_dfs.executor": "Run",
     "애플리케이션.Boj_11725.executor": "Run",
+    "애플리케이션.Boj_1181.executor": "Run",
     "애플리케이션.Boj_12738.executor": "Run",
     "애플리케이션.Boj_15989.executor": "Run",
+    "애플리케이션.Boj_18870.executor": "Run",
+    "애플리케이션.Boj_1920.executor": "Run",
+    "애플리케이션.Boj_1920_2.executor": "Run",
     "애플리케이션.Boj_2056.executor": "Run",
     "애플리케이션.Boj_2252.executor": "Run",
+    "애플리케이션.Boj_2293.executor": "Run",
     "애플리케이션.Boj_2623.executor": "Run",
     "애플리케이션.Boj_2631.executor": "Run",
     "애플리케이션.Boj_7562.executor": "Run",
@@ -141,13 +159,13 @@
       <recent name="baekjoon.greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Boj_11054">
-    <configuration name="Boj_11054" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.dynamicProgramming.Boj_11054" />
+  <component name="RunManager" selected="애플리케이션.Boj_1108">
+    <configuration name="Boj_10814" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.sort.Boj_10814" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.dynamicProgramming.*" />
+          <option name="PATTERN" value="baekjoon.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Boj_12738" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.binarySearch.Boj_12738" />
+    <configuration name="Boj_10989" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.sort.Boj_10989" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.binarySearch.*" />
+          <option name="PATTERN" value="baekjoon.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,12 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Boj_2056" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.topologicalSorting.Boj_2056" />
+    <configuration name="Boj_1108" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.sort.Boj_1108" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.topologicalSorting.*" />
+          <option name="PATTERN" value="baekjoon.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,12 +199,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Boj_2623" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.topologicalSorting.Boj_2623" />
+    <configuration name="Boj_11650" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.sort.Boj_11650" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.topologicalSorting.*" />
+          <option name="PATTERN" value="baekjoon.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,12 +212,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Boj_2631" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.dynamicProgramming.Boj_2631" />
+    <configuration name="Boj_1181" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.sort.Boj_1181" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.dynamicProgramming.*" />
+          <option name="PATTERN" value="baekjoon.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Boj_11054" />
-        <item itemvalue="애플리케이션.Boj_12738" />
-        <item itemvalue="애플리케이션.Boj_2631" />
-        <item itemvalue="애플리케이션.Boj_2056" />
-        <item itemvalue="애플리케이션.Boj_2623" />
+        <item itemvalue="애플리케이션.Boj_1108" />
+        <item itemvalue="애플리케이션.Boj_1181" />
+        <item itemvalue="애플리케이션.Boj_11650" />
+        <item itemvalue="애플리케이션.Boj_10989" />
+        <item itemvalue="애플리케이션.Boj_10814" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +281,8 @@
       <workItem from="1708830744655" duration="1506000" />
       <workItem from="1708913333996" duration="28632000" />
       <workItem from="1709023291900" duration="3757000" />
-      <workItem from="1709030651187" duration="5245000" />
+      <workItem from="1709030651187" duration="6280000" />
+      <workItem from="1709348632849" duration="24991000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2023-01-02&quot;">
       <option name="closed" value="true" />
@@ -449,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708945750867</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="&quot;LCS&quot;">
+      <option name="closed" value="true" />
+      <created>1709036175863</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1709036175863</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +507,8 @@
     <MESSAGE value="&quot;two pointer 풀이&quot;" />
     <MESSAGE value="&quot;tree 풀이&quot;" />
     <MESSAGE value="&quot;topological Sort&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;topological Sort&quot;" />
+    <MESSAGE value="&quot;LCS&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;LCS&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
