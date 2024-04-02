@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;Sort&quot;">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/tree/Boj_1991.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/Topological_Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph_Implementation/Dijkstra.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/Topological_Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph_Implementation/Topological_Sort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +82,7 @@
     "애플리케이션.Boj_2631.executor": "Run",
     "애플리케이션.Boj_7562.executor": "Run",
     "애플리케이션.Coin_9084.executor": "Run",
+    "애플리케이션.Dijkstra.executor": "Run",
     "애플리케이션.ExceptionTest.executor": "Run",
     "애플리케이션.Factorial.executor": "Run",
     "애플리케이션.GalaxyActivation.executor": "Run",
@@ -154,7 +155,7 @@
       <recent name="baekjoon.greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Topological_Sort">
+  <component name="RunManager" selected="애플리케이션.Dijkstra">
     <configuration name="Boj_1108" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekjoon.sort.Boj_1108" />
       <module name="codingTest" />
@@ -207,12 +208,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topological_Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.Topological_Sort" />
+    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph_Implementation.Dijkstra" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.*" />
+          <option name="PATTERN" value="graph_Implementation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,7 +223,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Topological_Sort" />
+        <item itemvalue="애플리케이션.Dijkstra" />
         <item itemvalue="애플리케이션.Boj_1991" />
         <item itemvalue="애플리케이션.Boj_1108" />
         <item itemvalue="애플리케이션.Boj_1181" />
@@ -282,7 +283,8 @@
       <workItem from="1711074406868" duration="620000" />
       <workItem from="1711526974735" duration="1424000" />
       <workItem from="1711583967418" duration="5432000" />
-      <workItem from="1711626545455" duration="2791000" />
+      <workItem from="1711626545455" duration="6444000" />
+      <workItem from="1712032095286" duration="1140000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2023-01-02&quot;">
       <option name="closed" value="true" />
