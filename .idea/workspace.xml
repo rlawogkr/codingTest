@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;Sort&quot;">
-      <change afterPath="$PROJECT_DIR$/src/graph_Implementation/Dijkstra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/backtracking/Boj_15655.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/Boj_11726.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/Boj_15990.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/implementation/Kakao_gift.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/Topological_Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph_Implementation/Topological_Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/일로만들기_1463.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/일로만들기_1463.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,113 +43,114 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/jaekim/IdeaProjects/codingTest",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "프로젝트",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true",
-    "애플리케이션.ArrayListTest.executor": "Run",
-    "애플리케이션.Boj_10814.executor": "Run",
-    "애플리케이션.Boj_10816.executor": "Run",
-    "애플리케이션.Boj_10989.executor": "Run",
-    "애플리케이션.Boj_11054.executor": "Run",
-    "애플리케이션.Boj_1108.executor": "Run",
-    "애플리케이션.Boj_11650.executor": "Run",
-    "애플리케이션.Boj_11724.executor": "Run",
-    "애플리케이션.Boj_11724_dfs.executor": "Run",
-    "애플리케이션.Boj_11725.executor": "Run",
-    "애플리케이션.Boj_1181.executor": "Run",
-    "애플리케이션.Boj_12738.executor": "Run",
-    "애플리케이션.Boj_15989.executor": "Run",
-    "애플리케이션.Boj_18870.executor": "Run",
-    "애플리케이션.Boj_1920.executor": "Run",
-    "애플리케이션.Boj_1920_2.executor": "Run",
-    "애플리케이션.Boj_1991.executor": "Run",
-    "애플리케이션.Boj_2056.executor": "Run",
-    "애플리케이션.Boj_2252.executor": "Run",
-    "애플리케이션.Boj_2293.executor": "Run",
-    "애플리케이션.Boj_2493.executor": "Run",
-    "애플리케이션.Boj_2623.executor": "Run",
-    "애플리케이션.Boj_2631.executor": "Run",
-    "애플리케이션.Boj_7562.executor": "Run",
-    "애플리케이션.Coin_9084.executor": "Run",
-    "애플리케이션.Dijkstra.executor": "Run",
-    "애플리케이션.ExceptionTest.executor": "Run",
-    "애플리케이션.Factorial.executor": "Run",
-    "애플리케이션.GalaxyActivation.executor": "Run",
-    "애플리케이션.LinkedListTest.executor": "Run",
-    "애플리케이션.Main.executor": "Run",
-    "애플리케이션.MakeOne_1463.executor": "Run",
-    "애플리케이션.MergeFile3_13975.executor": "Run",
-    "애플리케이션.MinSumCalculator.executor": "Run",
-    "애플리케이션.ModTest.executor": "Run",
-    "애플리케이션.NQueen_9663.executor": "Run",
-    "애플리케이션.PascalTriangle.executor": "Run",
-    "애플리케이션.StackSequence_1874.executor": "Run",
-    "애플리케이션.Topological_Sort.executor": "Run",
-    "애플리케이션.Z_1074.executor": "Run",
-    "애플리케이션.ai의반란최후의전쟁.executor": "Run",
-    "애플리케이션.boj_14888.executor": "Run",
-    "애플리케이션.boj_1644.executor": "Run",
-    "애플리케이션.boj_2003.executor": "Run",
-    "애플리케이션.boj_20922.executor": "Run",
-    "애플리케이션.boj_2461.executor": "Run",
-    "애플리케이션.boj_7562.executor": "Run",
-    "애플리케이션.compareLambdaTest.executor": "Run",
-    "애플리케이션.insertTest.executor": "Run",
-    "애플리케이션.returnXY.executor": "Run",
-    "애플리케이션.sandBox.Main.executor": "Run",
-    "애플리케이션.가장긴증가하는부분수열2_12015.executor": "Run",
-    "애플리케이션.가장긴증가하는부분수열_11053.executor": "Run",
-    "애플리케이션.계단오르기_2579.executor": "Run",
-    "애플리케이션.곱셈_1629.executor": "Run",
-    "애플리케이션.그림_1926.executor": "Run",
-    "애플리케이션.근손실_18429.executor": "Run",
-    "애플리케이션.다리놓기_1010.executor": "Run",
-    "애플리케이션.동전영_11047.executor": "Run",
-    "애플리케이션.미로탐색_2178.executor": "Run",
-    "애플리케이션.부분수열의합_1182.executor": "Run",
-    "애플리케이션.부분합_1806.executor": "Run",
-    "애플리케이션.불_4179.executor": "Run",
-    "애플리케이션.삼각김밥Test.executor": "Run",
-    "애플리케이션.삼각김밥월드.executor": "Run",
-    "애플리케이션.쇠막대기_10799.executor": "Run",
-    "애플리케이션.수고르기_2230.executor": "Run",
-    "애플리케이션.수정렬하기5_15688.executor": "Run",
-    "애플리케이션.숨바꼭질_1697.executor": "Run",
-    "애플리케이션.알파벳개수_10808.executor": "Run",
-    "애플리케이션.에디터_1406.executor": "Debug",
-    "애플리케이션.우유도시_14722.executor": "Run",
-    "애플리케이션.우유도시_14722fail.executor": "Run",
-    "애플리케이션.일로만들기2_12852.executor": "Run",
-    "애플리케이션.일로만들기_1463.executor": "Run",
-    "애플리케이션.일이삼더하기_9095.executor": "Run",
-    "애플리케이션.적어도대부분의배수_1145.executor": "Run",
-    "애플리케이션.종이의개수_1780.executor": "Run",
-    "애플리케이션.카드_11652.executor": "Run",
-    "애플리케이션.큐_10845.executor": "Run",
-    "애플리케이션.키로거_5397.executor": "Run",
-    "애플리케이션.타일링_11726.executor": "Run",
-    "애플리케이션.토마토_7576.executor": "Run",
-    "애플리케이션.평범한배낭_12865.executor": "Run",
-    "애플리케이션.피보나치수2_2748.executor": "Run",
-    "애플리케이션.하노이탑이동순서_11729.executor": "Run",
-    "애플리케이션.회의실배정Greedy_1931.executor": "Run",
-    "애플리케이션.회의실배정_1931.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jaekim/IdeaProjects/codingTest&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;애플리케이션.ArrayListTest.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Boj_10814.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Boj_10816.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Boj_10989.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Boj_11054.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Boj_1108.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Boj_11650.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Boj_11724.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Boj_11724_dfs.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Boj_11725.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Boj_11726.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Boj_1181.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Boj_12738.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Boj_15989.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Boj_18870.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Boj_1920.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Boj_1920_2.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Boj_1991.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Boj_2056.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Boj_2252.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Boj_2293.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Boj_2493.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Boj_2623.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Boj_2631.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Boj_7562.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Coin_9084.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Dijkstra.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ExceptionTest.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.GalaxyActivation.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.LinkedListTest.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.MakeOne_1463.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.MergeFile3_13975.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.MinSumCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ModTest.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.NQueen_9663.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.PascalTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.StackSequence_1874.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Topological_Sort.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Z_1074.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ai의반란최후의전쟁.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.boj_14888.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.boj_1644.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.boj_2003.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.boj_20922.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.boj_2461.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.boj_7562.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.compareLambdaTest.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.insertTest.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.returnXY.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.sandBox.Main.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.가장긴증가하는부분수열2_12015.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.가장긴증가하는부분수열_11053.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.계단오르기_2579.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.곱셈_1629.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.그림_1926.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.근손실_18429.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.다리놓기_1010.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.동전영_11047.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.미로탐색_2178.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.부분수열의합_1182.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.부분합_1806.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.불_4179.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.삼각김밥Test.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.삼각김밥월드.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.쇠막대기_10799.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.수고르기_2230.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.수정렬하기5_15688.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.숨바꼭질_1697.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.알파벳개수_10808.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.에디터_1406.executor&quot;: &quot;Debug&quot;,
+    &quot;애플리케이션.우유도시_14722.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.우유도시_14722fail.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.일로만들기2_12852.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.일로만들기_1463.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.일이삼더하기_9095.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.적어도대부분의배수_1145.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.종이의개수_1780.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.카드_11652.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.큐_10845.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.키로거_5397.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.타일링_11726.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.토마토_7576.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.평범한배낭_12865.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.피보나치수2_2748.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.하노이탑이동순서_11729.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.회의실배정Greedy_1931.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.회의실배정_1931.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="sandBox" />
@@ -155,7 +159,7 @@
       <recent name="baekjoon.greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Dijkstra">
+  <component name="RunManager" selected="애플리케이션.Boj_11726">
     <configuration name="Boj_1108" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekjoon.sort.Boj_1108" />
       <module name="codingTest" />
@@ -169,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Boj_11650" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.sort.Boj_11650" />
+    <configuration name="Boj_11726" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.dynamicProgramming.Boj_11726" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.sort.*" />
+          <option name="PATTERN" value="baekjoon.dynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Boj_11726" />
         <item itemvalue="애플리케이션.Dijkstra" />
         <item itemvalue="애플리케이션.Boj_1991" />
         <item itemvalue="애플리케이션.Boj_1108" />
         <item itemvalue="애플리케이션.Boj_1181" />
-        <item itemvalue="애플리케이션.Boj_11650" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +288,13 @@
       <workItem from="1711526974735" duration="1424000" />
       <workItem from="1711583967418" duration="5432000" />
       <workItem from="1711626545455" duration="6444000" />
-      <workItem from="1712032095286" duration="1140000" />
+      <workItem from="1712032095286" duration="2994000" />
+      <workItem from="1712709875627" duration="1892000" />
+      <workItem from="1713246226516" duration="110000" />
+      <workItem from="1713310684050" duration="2757000" />
+      <workItem from="1713484875545" duration="2116000" />
+      <workItem from="1713488694345" duration="560000" />
+      <workItem from="1713917120282" duration="2459000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2023-01-02&quot;">
       <option name="closed" value="true" />
