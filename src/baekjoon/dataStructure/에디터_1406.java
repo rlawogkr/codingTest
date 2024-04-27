@@ -17,73 +17,54 @@ public class 에디터_1406 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new java.io.InputStreamReader(System.in));
-//        BufferedWriter bw = new BufferedWriter(new java.io.OutputStreamWriter(System.out));
 
-//        List<String> list = new LinkedList<>(Arrays.asList(br.readLine().split("")));//처음 문자열. 연결리스트로 구현.
-
-        Stack<String> leftStack = new Stack<>();//처음 문자열. 스택으로 구현
-        Stack<String> rightStack = new Stack<>();
+        Stack<String> left = new Stack<>();//처음 문자열. 스택으로 구현
+        Stack<String> right = new Stack<>();
 
         String[] input = br.readLine().split("");
         for (String s : input) {
-            leftStack.push(s);
+            left.push(s);
         }
 
-//        cursor = list.size();//커서 위치
-        cursor = leftStack.size();//커서 위치
+        cursor = left.size();//커서 위치
         int M = Integer.parseInt(br.readLine());
 
         for (int i = 0; i < M; i++) {
             String[] command = br.readLine().split(" ");
             switch (command[0]) {
                 case "L"://커서를 왼쪽으로 한 칸 옮김. 커서가 문장의 맨 앞이면 무시됨.
-                    if (!leftStack.isEmpty()) {
-                        rightStack.push(leftStack.pop());
+                    if (!left.isEmpty()) {
+                        right.push(left.pop());
                         cursor--;
                     }
                     break;
-//                    if (cursor != 0) cursor--;
-//                    break;
                 case "D"://커서를 오른쪽으로 한 칸 옮김. 커서가 문장의 맨 뒤이면 무시됨.
-                    if (!rightStack.isEmpty()) {
-                        leftStack.push(rightStack.pop());
+                    if (!right.isEmpty()) {
+                        left.push(right.pop());
                         cursor++;
                     }
                     break;
-//                    if (cursor != list.size()) cursor++;
-//                    break;
                 case "B":
-                    if (!leftStack.isEmpty()) {
-                        leftStack.pop();
+                    if (!left.isEmpty()) {
+                        left.pop();
                         cursor--;
                     }
                     break;
-//                    if (cursor != 0) {
-//                        list.remove(cursor - 1);
-//                        cursor--;
-//                    }
-//                    break;
                 case "P":
-                    leftStack.push(command[1]);
+                    left.push(command[1]);
                     cursor++;
                     break;
-//                    list.add(cursor, command[1]);
-//                    cursor++;
-//                    break;
             }
         }
-//        bw.write(String.join("", list));//String.join()을 사용하면 list의 모든 요소를 하나의 문자열로 합칠 수 있음.
-//        bw.flush();
         StringBuilder sb = new StringBuilder();
-        while(!leftStack.isEmpty()){
-            rightStack.push(leftStack.pop());
+        while(!left.isEmpty()){
+            right.push(left.pop());
         }
-        while(!rightStack.isEmpty()){
-            sb.append(rightStack.pop());
+        while(!right.isEmpty()){
+            sb.append(right.pop());
         }
         System.out.println(sb);
         br.close();
-//        bw.close();
     }
 
 }
