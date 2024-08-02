@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;Sort&quot;">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/bfs/Boj_14226.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/bfs/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/dataStructure/Boj_22252.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/dfs/Boj_13023.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/backtracking/Boj_1062.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/bfs_dfs/Boj_16930.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/binarySearch/Boj_1654.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/brutalForce/Boj_12919.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/cumulativeSum/Boj_20159.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/Boj_2482.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/bfs/Boj_14226.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/bfs_dfs/Boj_14226.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/bfs/Boj_7562.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/bfs_dfs/Boj_7562.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/bfs/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/bfs_dfs/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/bfs/그림_1926.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/bfs_dfs/그림_1926.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/bfs/미로탐색_2178.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/bfs_dfs/미로탐색_2178.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/bfs/불_4179.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/bfs_dfs/불_4179.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/bfs/숨바꼭질_1697.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/bfs_dfs/숨바꼭질_1697.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/bfs/토마토_7576.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/bfs_dfs/토마토_7576.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/dfs/Boj_13023.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/bfs_dfs/Boj_13023.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +38,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rlawogkr&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jayjae97/codingTest.git&quot;,
+    &quot;accountId&quot;: &quot;ca36d7f6-45d3-4916-aaee-9db13bbdbe50&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -42,6 +66,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Boj_14226.executor": "Run",
+    "Application.Boj_20159.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -52,12 +78,13 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "프로젝트",
+    "project.structure.last.edited": "SDK",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.ArrayListTest.executor": "Run",
+    "애플리케이션.Boj_1062.executor": "Run",
     "애플리케이션.Boj_10814.executor": "Run",
     "애플리케이션.Boj_10816.executor": "Run",
     "애플리케이션.Boj_10844.executor": "Run",
@@ -73,10 +100,12 @@
     "애플리케이션.Boj_11726.executor": "Run",
     "애플리케이션.Boj_1181.executor": "Run",
     "애플리케이션.Boj_12738.executor": "Run",
+    "애플리케이션.Boj_12919.executor": "Run",
     "애플리케이션.Boj_13023.executor": "Run",
     "애플리케이션.Boj_1309.executor": "Run",
     "애플리케이션.Boj_14226.executor": "Run",
     "애플리케이션.Boj_15989.executor": "Run",
+    "애플리케이션.Boj_1654.executor": "Run",
     "애플리케이션.Boj_17404.executor": "Run",
     "애플리케이션.Boj_1748.executor": "Run",
     "애플리케이션.Boj_1759.executor": "Run",
@@ -88,6 +117,7 @@
     "애플리케이션.Boj_2225.executor": "Run",
     "애플리케이션.Boj_2252.executor": "Run",
     "애플리케이션.Boj_2293.executor": "Run",
+    "애플리케이션.Boj_2482.executor": "Run",
     "애플리케이션.Boj_2493.executor": "Run",
     "애플리케이션.Boj_2623.executor": "Run",
     "애플리케이션.Boj_2631.executor": "Run",
@@ -169,12 +199,12 @@
     </key>
   </component>
   <component name="RunManager" selected="애플리케이션.Boj_14226">
-    <configuration name="Boj_13023" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.dfs.Boj_13023" />
+    <configuration name="Boj_1062" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.backtracking.Boj_1062" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.dfs.*" />
+          <option name="PATTERN" value="baekjoon.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,34 +212,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Boj_14226" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.bfs.Boj_14226" />
-      <module name="codingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baekjoon.bfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Boj_1748" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.implementation.Boj_1748" />
-      <module name="codingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baekjoon.implementation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Boj_1759" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.brutalForce.Boj_1759" />
+    <configuration name="Boj_12919" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.brutalForce.Boj_12919" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -221,12 +225,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.bfs.Test" />
+    <configuration name="Boj_14226" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.bfs_dfs.Boj_14226" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.bfs.*" />
+          <option name="PATTERN" value="baekjoon.bfs_dfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Boj_1654" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.binarySearch.Boj_1654" />
+      <module name="codingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.binarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Boj_20159" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.cumulativeSum.Boj_20159" />
+      <module name="codingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.cumulativeSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,17 +267,17 @@
     <recent_temporary>
       <list>
         <item itemvalue="애플리케이션.Boj_14226" />
-        <item itemvalue="애플리케이션.Test" />
-        <item itemvalue="애플리케이션.Boj_13023" />
-        <item itemvalue="애플리케이션.Boj_1759" />
-        <item itemvalue="애플리케이션.Boj_1748" />
+        <item itemvalue="애플리케이션.Boj_12919" />
+        <item itemvalue="애플리케이션.Boj_1062" />
+        <item itemvalue="애플리케이션.Boj_1654" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-5f3ff201" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -321,7 +351,22 @@
       <workItem from="1716509633285" duration="2575000" />
       <workItem from="1716597516749" duration="608000" />
       <workItem from="1716776568996" duration="52000" />
-      <workItem from="1718152337974" duration="3332000" />
+      <workItem from="1718152337974" duration="3960000" />
+      <workItem from="1718195580132" duration="1850000" />
+      <workItem from="1718323606524" duration="994000" />
+      <workItem from="1718758006601" duration="2029000" />
+      <workItem from="1718771342790" duration="62000" />
+      <workItem from="1718771413721" duration="22000" />
+      <workItem from="1718771803473" duration="59000" />
+      <workItem from="1718771868691" duration="775000" />
+      <workItem from="1718929187061" duration="3821000" />
+      <workItem from="1719223551815" duration="10000" />
+      <workItem from="1719273877442" duration="3507000" />
+      <workItem from="1719566286072" duration="83000" />
+      <workItem from="1719566377244" duration="2120000" />
+      <workItem from="1722235906120" duration="6000" />
+      <workItem from="1722235925099" duration="14976000" />
+      <workItem from="1722561723706" duration="5443000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2023-01-02&quot;">
       <option name="closed" value="true" />
