@@ -1,4 +1,4 @@
-package baekjoon.dfs;
+package baekjoon.bfs_dfs;
 import java.util.*;
 import java.io.*;
 // 13023. ABCDE
