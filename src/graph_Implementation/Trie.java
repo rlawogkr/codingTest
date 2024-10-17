@@ -17,10 +17,6 @@ public class Trie {
         this.root = new Node();
     }
 
-//    public void insert(String str); // 삽입
-//    public boolean search(String str); // 탐색
-//    public boolean delete(String str);// 삭제
-
     public void insert(String str){
         Node node = this.root; // 시작 노드를 루트노드로 설정(루트 노드에는 값이 없음)
 
@@ -66,7 +62,7 @@ public class Trie {
             if(!cur.endOfWord){
                 return false;
             }
-            //endOfWord를 false로 바꾸면 지우려는 문자를 찾을 수 없게 됨
+            // endOfWord를 false로 바꾸면 지우려는 문자를 찾을 수 없게 됨
             cur.endOfWord = false;
             if(cur.child.isEmpty()){
                 node.child.remove(c);
