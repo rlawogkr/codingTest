@@ -40,7 +40,6 @@ public class Boj_2573 {
             }
             if (startNode != null) break;
         }
-        if (startNode == null) return false; // 모든 빙산이 녹은 경우
 
         // BFS로 연결된 빙산 방문 처리
         Deque<Node> queue = new ArrayDeque<>();
@@ -118,7 +117,8 @@ public class Boj_2573 {
 
         // 갱신된 상태를 원래 맵에 반영
         for (int i = 0; i < r; i++) {
-            System.arraycopy(newMap[i], 0, map[i], 0, c);
+//            System.arraycopy(newMap[i], 0, map[i], 0, c);
+            map[i] = Arrays.copyOf(newMap[i], c);
         }
     }
 
