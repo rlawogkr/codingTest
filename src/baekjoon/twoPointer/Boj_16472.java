@@ -7,30 +7,28 @@ public class Boj_16472 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
         String s = br.readLine();
-
-        int left = 0;
-        int right = 0;
-        int maxLength = 0; // 결과값
         Map<Character, Integer> hashMap = new HashMap<>();
-        while (right < s.length()) {
-            // 오른쪽 포인터로 새로운 문자 추가
-            char rightChar = s.charAt(right);
+
+        int l = 0, r = 0;
+        int maxLength = 0;
+        while(r < s.length()){
+            Character rightChar = s.charAt(r);
             hashMap.put(rightChar, hashMap.getOrDefault(rightChar, 0) + 1);
-            right++;
 
-            // 유효한 알파벳 수가 n을 초과하면 왼쪽 포인터 이동
-            while (hashMap.size() > n) {
-                char leftChar = s.charAt(left);
-                hashMap.put(leftChar, hashMap.get(leftChar) - 1);
-                if (hashMap.get(leftChar) == 0) {
-                    hashMap.remove(leftChar);
+
+            // left pointer 이동
+            while(hashMap.size() > n){
+                hashMap.put(s.charAt(l), hashMap.get(s.charAt(l)) - 1);
+                if(hashMap.get(s.charAt(l)) == 0){
+                    hashMap.remove(s.charAt(l));
                 }
-                left++;
+                l++;
             }
+            maxLength = Math.max(maxLength, r-l+1);
+            r++;
 
-            // 최대 길이 갱신
-            maxLength = Math.max(maxLength, right - left);
         }
+
 
         System.out.println(maxLength);
         br.close();
