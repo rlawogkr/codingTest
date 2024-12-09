@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;Sort&quot;">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/geometry/Boj_2166.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/graph/Boj_1647.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +98,7 @@
     "애플리케이션.Boj_1309.executor": "Run",
     "애플리케이션.Boj_14226.executor": "Run",
     "애플리케이션.Boj_15989.executor": "Run",
+    "애플리케이션.Boj_1647.executor": "Run",
     "애플리케이션.Boj_16472.executor": "Run",
     "애플리케이션.Boj_1654.executor": "Run",
     "애플리케이션.Boj_16637.executor": "Run",
@@ -207,10 +208,16 @@
       <recent name="baekjoon.greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Boj_2166">
-    <configuration name="여행경로" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="여행경로" />
+  <component name="RunManager" selected="애플리케이션.Boj_1647">
+    <configuration name="Boj_1647" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.graph.Boj_1647" />
       <module name="codingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -269,11 +276,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Boj_1647" />
         <item itemvalue="애플리케이션.Boj_2166" />
         <item itemvalue="애플리케이션.Boj_16472" />
         <item itemvalue="애플리케이션.Boj_2573" />
         <item itemvalue="애플리케이션.Boj_16918" />
-        <item itemvalue="애플리케이션.여행경로" />
       </list>
     </recent_temporary>
   </component>
@@ -398,7 +405,7 @@
       <workItem from="1731130483057" duration="1651000" />
       <workItem from="1732420345278" duration="18957000" />
       <workItem from="1733403005744" duration="2749000" />
-      <workItem from="1733749731084" duration="1768000" />
+      <workItem from="1733749731084" duration="4183000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2023-01-02&quot;">
       <option name="closed" value="true" />
