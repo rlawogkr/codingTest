@@ -40,18 +40,28 @@ public class Boj_1647 {
         int n = Integer.parseInt(st.nextToken()); // 노드 개수
         int m = Integer.parseInt(st.nextToken()); // 길의 개수
 
-        List<Node> arrayList = new ArrayList<>();
-        // A와 B를 연결하는데 드는 비용이 C
-        for (int i = 0; i < m; i++) {
+//        List<Node> arrayList = new ArrayList<>();
+//        // A와 B를 연결하는데 드는 비용이 C
+//        for (int i = 0; i < m; i++) {
+//            st = new StringTokenizer(br.readLine());
+//            arrayList.add(
+//                    new Node(Integer.parseInt(st.nextToken())
+//                            , Integer.parseInt(st.nextToken())
+//                            , Integer.parseInt(st.nextToken())));
+//        }
+//
+//        Collections.sort(arrayList); // 오름차순 정렬(비용)
+
+        Node[] nodes = new Node[m];
+        for(int i = 0; i<m ;i++){
             st = new StringTokenizer(br.readLine());
-            arrayList.add(
-                    new Node(Integer.parseInt(st.nextToken())
-                            , Integer.parseInt(st.nextToken())
-                            , Integer.parseInt(st.nextToken())));
+            int a= Integer.parseInt(st.nextToken());
+            int b= Integer.parseInt(st.nextToken());
+            int cost= Integer.parseInt(st.nextToken());
+            nodes[i] = new Node(a,b,cost);
         }
 
-        Collections.sort(arrayList); // 오름차순 정렬(비용)
-
+        Arrays.sort(nodes);
         // 자기 자신을 부모로 설정
         parent = new int[n+1];
         for(int i = 1; i<=n; i++){
@@ -61,7 +71,7 @@ public class Boj_1647 {
         int mstCost = 0; // MST 비용
         int maxCost = 0; // 최대 비용
 
-        for (Node node : arrayList) {
+        for (Node node : nodes) {
             if(find(node.a) != find(node.b)){
                 union(node.a, node.b);
                 mstCost += node.cost; // 간선 비용 저장
