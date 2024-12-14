@@ -5,7 +5,7 @@ import java.util.*;
 
 // 컴퓨터 연결하는 비용 최소로
 public class Boj_1922 {
-    static class Node implements Comparable<Node>{
+    static class Node{
         int from;
         int to;
         int cost;
@@ -14,19 +14,15 @@ public class Boj_1922 {
             this.to = to;
             this.cost = cost;
         }
-        @Override
-        public int compareTo(Node node){
-            return Integer.compare(this.cost, node.cost);
-        }
+//        @Override
+//        public int compareTo(Node node){
+//            return Integer.compare(this.cost, node.cost);
+//        }
 
     }
     static int[] parent;
     static int find(int x){
         if(parent[x] == x)return x;
-//        return parent[x] = find(x); // 이걸 풀어서 쓰면 어떻게 되지?
-//        int root = find(parent[x]);
-//        parent[x] = root;
-//        return root;
         return parent[x] = find(parent[x]);
     }
     static void union(int x, int y){
@@ -53,7 +49,9 @@ public class Boj_1922 {
             if(a == b) continue; // 같을 경우 pass
             nodeList.add(new Node(a,b,c));
         }
-        Collections.sort(nodeList);
+
+        nodeList.sort((o1, o2) -> Integer.compare(o1.cost,o2.cost));
+        
 
         // 부모 settings
         parent = new int[n+1];
