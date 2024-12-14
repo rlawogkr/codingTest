@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;Sort&quot;">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/graph/Boj_1197.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/mst/Boj_1922.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/graph/Boj_1647.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/graph/Boj_1647.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +112,7 @@
     "애플리케이션.Boj_18870.executor": "Run",
     "애플리케이션.Boj_1920.executor": "Run",
     "애플리케이션.Boj_1920_2.executor": "Run",
+    "애플리케이션.Boj_1922.executor": "Run",
     "애플리케이션.Boj_19236.executor": "Run",
     "애플리케이션.Boj_1991.executor": "Run",
     "애플리케이션.Boj_2056.executor": "Run",
@@ -210,7 +210,7 @@
       <recent name="baekjoon.greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Boj_1197">
+  <component name="RunManager" selected="애플리케이션.Boj_1922">
     <configuration name="Boj_1197" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekjoon.graph.Boj_1197" />
       <module name="codingTest" />
@@ -250,6 +250,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Boj_1922" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.mst.Boj_1922" />
+      <module name="codingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.mst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Boj_2166" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekjoon.geometry.Boj_2166" />
       <module name="codingTest" />
@@ -263,26 +276,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Boj_2573" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.bfs_dfs.Boj_2573" />
-      <module name="codingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baekjoon.bfs_dfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Boj_1922" />
         <item itemvalue="애플리케이션.Boj_1197" />
         <item itemvalue="애플리케이션.Boj_1647" />
         <item itemvalue="애플리케이션.Boj_2166" />
         <item itemvalue="애플리케이션.Boj_16472" />
-        <item itemvalue="애플리케이션.Boj_2573" />
       </list>
     </recent_temporary>
   </component>
@@ -407,7 +407,8 @@
       <workItem from="1731130483057" duration="1651000" />
       <workItem from="1732420345278" duration="18957000" />
       <workItem from="1733403005744" duration="2749000" />
-      <workItem from="1733749731084" duration="10760000" />
+      <workItem from="1733749731084" duration="11518000" />
+      <workItem from="1734170994470" duration="3419000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2023-01-02&quot;">
       <option name="closed" value="true" />
