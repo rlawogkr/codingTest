@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;Sort&quot;">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/dijkstra/Boj_1916.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/math/Boj_1252.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/priorityQueue/Boj_1417.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/twoPointer/Boj_2531.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/priorityQueue/Boj_1417.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/priorityQueue/Boj_1417.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +61,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Boj_1417 (1).executor": "Run",
+    "Application.Boj_1417 (2).executor": "Run",
     "Application.Boj_1417.executor": "Run",
     "Application.Boj_14226.executor": "Run",
     "Application.Boj_20159.executor": "Run",
@@ -104,6 +103,7 @@
     "애플리케이션.Boj_12919.executor": "Run",
     "애플리케이션.Boj_13023.executor": "Run",
     "애플리케이션.Boj_1309.executor": "Run",
+    "애플리케이션.Boj_1417.executor": "Run",
     "애플리케이션.Boj_14226.executor": "Run",
     "애플리케이션.Boj_15989.executor": "Run",
     "애플리케이션.Boj_1647.executor": "Run",
@@ -217,7 +217,7 @@
       <recent name="baekjoon.greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Boj_1417">
+  <component name="RunManager" selected="애플리케이션.Boj_1417">
     <configuration name="Boj_11000" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekjoon.priorityQueue.Boj_11000" />
       <module name="codingTest" />
@@ -257,6 +257,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Boj_1417 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.priorityQueue.Boj_1417" />
+      <module name="codingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.priorityQueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Boj_1417" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekjoon.priorityQueue.Boj_1417" />
       <module name="codingTest" />
@@ -270,26 +283,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Boj_1922" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.mst.Boj_1922" />
-      <module name="codingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baekjoon.mst.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Boj_1417" />
-        <item itemvalue="Application.Boj_1417 (1)" />
+        <item itemvalue="애플리케이션.Boj_1417" />
         <item itemvalue="애플리케이션.Boj_1252" />
         <item itemvalue="애플리케이션.Boj_11000" />
-        <item itemvalue="애플리케이션.Boj_1922" />
       </list>
     </recent_temporary>
   </component>
@@ -415,7 +413,9 @@
       <workItem from="1732420345278" duration="18957000" />
       <workItem from="1733403005744" duration="2749000" />
       <workItem from="1733749731084" duration="11518000" />
-      <workItem from="1734170994470" duration="16592000" />
+      <workItem from="1734170994470" duration="18200000" />
+      <workItem from="1744446020470" duration="132000" />
+      <workItem from="1744446158947" duration="6535000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2023-01-02&quot;">
       <option name="closed" value="true" />

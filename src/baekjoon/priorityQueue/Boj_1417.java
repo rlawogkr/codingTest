@@ -5,7 +5,7 @@ import java.io.*;
 
 // 다솜이가 매수해야 하는 사람의 최솟값을 출력
 public class Boj_1417 {
-    static class Node implements Comparable<Node> {
+    static class Node{
         int idx;
         int val;
 
@@ -13,16 +13,11 @@ public class Boj_1417 {
             this.idx = idx;
             this.val = val;
         }
-
-        @Override
-        public int compareTo(Node o) {
-            return Integer.compare(o.val, val); // val 기준으로 내림차순 정렬
-        }
     }
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        PriorityQueue<Node> pq = new PriorityQueue<>();
+        PriorityQueue<Node> pq = new PriorityQueue<>((o1,o2) -> Integer.compare(o2.val,o1.val));
         int n = Integer.parseInt(br.readLine()); // 후보의 수
         int[] array = new int[n];
 
