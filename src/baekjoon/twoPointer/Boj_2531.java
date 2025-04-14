@@ -1,4 +1,4 @@
-package baekjoon.twoPointer;package
+package baekjoon.twoPointer;
 import java.io.*;
 import java.util.*;
 
