@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;Sort&quot;">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/bfs_dfs/Boj_16928.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/collections/Boj_7785.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/collections/Boj_9536.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/collections/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/Boj_9655.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/greedy/Boj_2138.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,6 +129,7 @@
     "애플리케이션.Boj_19236.executor": "Run",
     "애플리케이션.Boj_1991.executor": "Run",
     "애플리케이션.Boj_2056.executor": "Run",
+    "애플리케이션.Boj_2138.executor": "Run",
     "애플리케이션.Boj_2166.executor": "Run",
     "애플리케이션.Boj_2225.executor": "Run",
     "애플리케이션.Boj_2252.executor": "Run",
@@ -139,6 +144,8 @@
     "애플리케이션.Boj_5427.executor": "Run",
     "애플리케이션.Boj_6064.executor": "Run",
     "애플리케이션.Boj_7562.executor": "Run",
+    "애플리케이션.Boj_7785.executor": "Run",
+    "애플리케이션.Boj_9536.executor": "Run",
     "애플리케이션.Coin_9084.executor": "Run",
     "애플리케이션.Dijkstra.executor": "Run",
     "애플리케이션.ExceptionTest.executor": "Run",
@@ -219,59 +226,7 @@
       <recent name="baekjoon.greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Boj_16928">
-    <configuration name="Boj_1252" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.math.Boj_1252" />
-      <module name="codingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baekjoon.math.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Boj_1417" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.priorityQueue.Boj_1417" />
-      <module name="codingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baekjoon.priorityQueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Boj_1446" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.dijkstra.Boj_1446" />
-      <module name="codingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baekjoon.dijkstra.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Boj_1522" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.twoPointer.Boj_1522" />
-      <module name="codingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baekjoon.twoPointer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.Boj_2138">
     <configuration name="Boj_16928" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekjoon.bfs_dfs.Boj_16928" />
       <module name="codingTest" />
@@ -285,13 +240,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Boj_2138" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.greedy.Boj_2138" />
+      <module name="codingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Boj_7785" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.collections.Boj_7785" />
+      <module name="codingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Boj_9536" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.collections.Boj_9536" />
+      <module name="codingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.collections.Test" />
+      <module name="codingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Boj_2138" />
+        <item itemvalue="애플리케이션.Test" />
+        <item itemvalue="애플리케이션.Boj_9536" />
+        <item itemvalue="애플리케이션.Boj_7785" />
         <item itemvalue="애플리케이션.Boj_16928" />
-        <item itemvalue="애플리케이션.Boj_1446" />
-        <item itemvalue="애플리케이션.Boj_1522" />
-        <item itemvalue="애플리케이션.Boj_1417" />
-        <item itemvalue="애플리케이션.Boj_1252" />
       </list>
     </recent_temporary>
   </component>
@@ -419,7 +426,9 @@
       <workItem from="1733749731084" duration="11518000" />
       <workItem from="1734170994470" duration="18200000" />
       <workItem from="1744446020470" duration="132000" />
-      <workItem from="1744446158947" duration="18466000" />
+      <workItem from="1744446158947" duration="22641000" />
+      <workItem from="1745056757600" duration="10126000" />
+      <workItem from="1745228606100" duration="2278000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2023-01-02&quot;">
       <option name="closed" value="true" />
@@ -662,7 +671,7 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/baekjoon/bfs_dfs/Boj_16928.java</url>
           <line>25</line>
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
