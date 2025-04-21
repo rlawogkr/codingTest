@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;Sort&quot;">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/backtracking/Boj_16987.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/backtracking/Boj_1799.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/devideAndConquer/Boj_2339.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/implementation/Boj_16637.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/implementation/Boj_19236.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/implementation/Boj_4446.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/collections/Boj_7785.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/collections/Boj_9536.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/collections/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/Boj_9655.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/greedy/Boj_2138.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +39,14 @@
     &quot;accountId&quot;: &quot;ca36d7f6-45d3-4916-aaee-9db13bbdbe50&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///opt/homebrew/Cellar/openjdk@17/17.0.12/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Character.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///opt/homebrew/Cellar/openjdk@17/17.0.12/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Arrays.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -56,6 +63,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Boj_1417 (1).executor": "Run",
+    "Application.Boj_1417 (2).executor": "Run",
+    "Application.Boj_1417.executor": "Run",
     "Application.Boj_14226.executor": "Run",
     "Application.Boj_20159.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -79,6 +89,7 @@
     "애플리케이션.Boj_10816.executor": "Run",
     "애플리케이션.Boj_10844.executor": "Run",
     "애플리케이션.Boj_10989.executor": "Run",
+    "애플리케이션.Boj_11000.executor": "Run",
     "애플리케이션.Boj_11054.executor": "Run",
     "애플리케이션.Boj_1107.executor": "Run",
     "애플리케이션.Boj_1108.executor": "Run",
@@ -89,14 +100,23 @@
     "애플리케이션.Boj_11725.executor": "Run",
     "애플리케이션.Boj_11726.executor": "Run",
     "애플리케이션.Boj_1181.executor": "Run",
+    "애플리케이션.Boj_1197.executor": "Run",
+    "애플리케이션.Boj_1252.executor": "Run",
     "애플리케이션.Boj_12738.executor": "Run",
     "애플리케이션.Boj_12919.executor": "Run",
     "애플리케이션.Boj_13023.executor": "Run",
     "애플리케이션.Boj_1309.executor": "Run",
+    "애플리케이션.Boj_1417.executor": "Run",
     "애플리케이션.Boj_14226.executor": "Run",
+    "애플리케이션.Boj_1446.executor": "Run",
+    "애플리케이션.Boj_1522.executor": "Run",
     "애플리케이션.Boj_15989.executor": "Run",
+    "애플리케이션.Boj_1647.executor": "Run",
+    "애플리케이션.Boj_16472.executor": "Run",
     "애플리케이션.Boj_1654.executor": "Run",
     "애플리케이션.Boj_16637.executor": "Run",
+    "애플리케이션.Boj_16918.executor": "Run",
+    "애플리케이션.Boj_16928.executor": "Run",
     "애플리케이션.Boj_16987.executor": "Debug",
     "애플리케이션.Boj_17404.executor": "Run",
     "애플리케이션.Boj_1748.executor": "Run",
@@ -105,20 +125,27 @@
     "애플리케이션.Boj_18870.executor": "Run",
     "애플리케이션.Boj_1920.executor": "Run",
     "애플리케이션.Boj_1920_2.executor": "Run",
+    "애플리케이션.Boj_1922.executor": "Run",
     "애플리케이션.Boj_19236.executor": "Run",
     "애플리케이션.Boj_1991.executor": "Run",
     "애플리케이션.Boj_2056.executor": "Run",
+    "애플리케이션.Boj_2138.executor": "Run",
+    "애플리케이션.Boj_2166.executor": "Run",
     "애플리케이션.Boj_2225.executor": "Run",
     "애플리케이션.Boj_2252.executor": "Run",
     "애플리케이션.Boj_2293.executor": "Run",
     "애플리케이션.Boj_2339.executor": "Run",
     "애플리케이션.Boj_2482.executor": "Run",
     "애플리케이션.Boj_2493.executor": "Run",
+    "애플리케이션.Boj_2573.executor": "Run",
     "애플리케이션.Boj_2623.executor": "Run",
     "애플리케이션.Boj_2631.executor": "Run",
     "애플리케이션.Boj_4446.executor": "Run",
+    "애플리케이션.Boj_5427.executor": "Run",
     "애플리케이션.Boj_6064.executor": "Run",
     "애플리케이션.Boj_7562.executor": "Run",
+    "애플리케이션.Boj_7785.executor": "Run",
+    "애플리케이션.Boj_9536.executor": "Run",
     "애플리케이션.Coin_9084.executor": "Run",
     "애플리케이션.Dijkstra.executor": "Run",
     "애플리케이션.ExceptionTest.executor": "Run",
@@ -134,6 +161,9 @@
     "애플리케이션.PascalTriangle.executor": "Run",
     "애플리케이션.StackSequence_1874.executor": "Run",
     "애플리케이션.Test.executor": "Run",
+    "애플리케이션.Test1.executor": "Debug",
+    "애플리케이션.Test2.executor": "Run",
+    "애플리케이션.Test4.executor": "Run",
     "애플리케이션.Topological_Sort.executor": "Run",
     "애플리케이션.Z_1074.executor": "Run",
     "애플리케이션.ai의반란최후의전쟁.executor": "Run",
@@ -167,6 +197,8 @@
     "애플리케이션.숨바꼭질_1697.executor": "Run",
     "애플리케이션.알파벳개수_10808.executor": "Run",
     "애플리케이션.에디터_1406.executor": "Run",
+    "애플리케이션.여행경로.executor": "Run",
+    "애플리케이션.영어끝말잇기.executor": "Run",
     "애플리케이션.우유도시_14722.executor": "Run",
     "애플리케이션.우유도시_14722fail.executor": "Run",
     "애플리케이션.일로만들기2_12852.executor": "Run",
@@ -194,13 +226,13 @@
       <recent name="baekjoon.greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Boj_19236">
-    <configuration name="Boj_16637" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.implementation.Boj_16637" />
+  <component name="RunManager" selected="애플리케이션.Boj_2138">
+    <configuration name="Boj_16928" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.bfs_dfs.Boj_16928" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.implementation.*" />
+          <option name="PATTERN" value="baekjoon.bfs_dfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,12 +240,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Boj_16987" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.backtracking.Boj_16987" />
+    <configuration name="Boj_2138" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.greedy.Boj_2138" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.backtracking.*" />
+          <option name="PATTERN" value="baekjoon.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,12 +253,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Boj_19236" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.implementation.Boj_19236" />
+    <configuration name="Boj_7785" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.collections.Boj_7785" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.implementation.*" />
+          <option name="PATTERN" value="baekjoon.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,12 +266,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Boj_2339" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.devideAndConquer.Boj_2339" />
+    <configuration name="Boj_9536" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.collections.Boj_9536" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.devideAndConquer.*" />
+          <option name="PATTERN" value="baekjoon.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,12 +279,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Boj_4446" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.implementation.Boj_4446" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.collections.Test" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.implementation.*" />
+          <option name="PATTERN" value="baekjoon.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,11 +294,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Boj_19236" />
-        <item itemvalue="애플리케이션.Boj_16637" />
-        <item itemvalue="애플리케이션.Boj_4446" />
-        <item itemvalue="애플리케이션.Boj_2339" />
-        <item itemvalue="애플리케이션.Boj_16987" />
+        <item itemvalue="애플리케이션.Boj_2138" />
+        <item itemvalue="애플리케이션.Test" />
+        <item itemvalue="애플리케이션.Boj_9536" />
+        <item itemvalue="애플리케이션.Boj_7785" />
+        <item itemvalue="애플리케이션.Boj_16928" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +402,33 @@
       <workItem from="1722992798305" duration="10205000" />
       <workItem from="1723165410256" duration="3997000" />
       <workItem from="1723426255277" duration="1459000" />
-      <workItem from="1723438800809" duration="7788000" />
+      <workItem from="1723438800809" duration="15708000" />
+      <workItem from="1723770868107" duration="2091000" />
+      <workItem from="1723786699768" duration="2036000" />
+      <workItem from="1724052784678" duration="297000" />
+      <workItem from="1724053088887" duration="2225000" />
+      <workItem from="1724720667499" duration="616000" />
+      <workItem from="1725328692609" duration="1499000" />
+      <workItem from="1727247706346" duration="1251000" />
+      <workItem from="1727452871903" duration="10000" />
+      <workItem from="1727583157500" duration="1226000" />
+      <workItem from="1728450155579" duration="7727000" />
+      <workItem from="1728885618579" duration="1154000" />
+      <workItem from="1728889753639" duration="1000" />
+      <workItem from="1729002951657" duration="4632000" />
+      <workItem from="1729166564734" duration="15025000" />
+      <workItem from="1729317262155" duration="1961000" />
+      <workItem from="1729320233492" duration="1222000" />
+      <workItem from="1729865734031" duration="640000" />
+      <workItem from="1731130483057" duration="1651000" />
+      <workItem from="1732420345278" duration="18957000" />
+      <workItem from="1733403005744" duration="2749000" />
+      <workItem from="1733749731084" duration="11518000" />
+      <workItem from="1734170994470" duration="18200000" />
+      <workItem from="1744446020470" duration="132000" />
+      <workItem from="1744446158947" duration="22641000" />
+      <workItem from="1745056757600" duration="10126000" />
+      <workItem from="1745228606100" duration="2278000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2023-01-02&quot;">
       <option name="closed" value="true" />
@@ -606,6 +664,17 @@
     <MESSAGE value="&quot;LCS&quot;" />
     <MESSAGE value="&quot;Sort&quot;" />
     <option name="LAST_COMMIT_MESSAGE" value="&quot;Sort&quot;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/baekjoon/bfs_dfs/Boj_16928.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
