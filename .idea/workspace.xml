@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;Sort&quot;">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/collections/Boj_7785.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/collections/Boj_9536.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/collections/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/dynamicProgramming/Boj_9655.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/greedy/Boj_2138.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/unionfind/Boj_16724.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,6 +111,7 @@
     "애플리케이션.Boj_16472.executor": "Run",
     "애플리케이션.Boj_1654.executor": "Run",
     "애플리케이션.Boj_16637.executor": "Run",
+    "애플리케이션.Boj_16724.executor": "Debug",
     "애플리케이션.Boj_16918.executor": "Run",
     "애플리케이션.Boj_16928.executor": "Run",
     "애플리케이션.Boj_16987.executor": "Debug",
@@ -226,13 +223,13 @@
       <recent name="baekjoon.greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Boj_2138">
-    <configuration name="Boj_16928" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.bfs_dfs.Boj_16928" />
+  <component name="RunManager" selected="애플리케이션.Boj_16724">
+    <configuration name="Boj_16724" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.unionfind.Boj_16724" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.bfs_dfs.*" />
+          <option name="PATTERN" value="baekjoon.unionfind.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -294,11 +291,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Boj_16724" />
         <item itemvalue="애플리케이션.Boj_2138" />
         <item itemvalue="애플리케이션.Test" />
         <item itemvalue="애플리케이션.Boj_9536" />
         <item itemvalue="애플리케이션.Boj_7785" />
-        <item itemvalue="애플리케이션.Boj_16928" />
       </list>
     </recent_temporary>
   </component>
@@ -428,7 +425,7 @@
       <workItem from="1744446020470" duration="132000" />
       <workItem from="1744446158947" duration="22641000" />
       <workItem from="1745056757600" duration="10126000" />
-      <workItem from="1745228606100" duration="2278000" />
+      <workItem from="1745228606100" duration="7771000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2023-01-02&quot;">
       <option name="closed" value="true" />
@@ -672,6 +669,11 @@
           <url>file://$PROJECT_DIR$/src/baekjoon/bfs_dfs/Boj_16928.java</url>
           <line>25</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/baekjoon/unionfind/Boj_16724.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
