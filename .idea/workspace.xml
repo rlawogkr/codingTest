@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;Sort&quot;">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/unionfind/Boj_16724.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/collections/Boj_9375.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +111,7 @@
     "애플리케이션.Boj_16472.executor": "Run",
     "애플리케이션.Boj_1654.executor": "Run",
     "애플리케이션.Boj_16637.executor": "Run",
-    "애플리케이션.Boj_16724.executor": "Debug",
+    "애플리케이션.Boj_16724.executor": "Run",
     "애플리케이션.Boj_16918.executor": "Run",
     "애플리케이션.Boj_16928.executor": "Run",
     "애플리케이션.Boj_16987.executor": "Debug",
@@ -142,6 +142,7 @@
     "애플리케이션.Boj_6064.executor": "Run",
     "애플리케이션.Boj_7562.executor": "Run",
     "애플리케이션.Boj_7785.executor": "Run",
+    "애플리케이션.Boj_9375.executor": "Run",
     "애플리케이션.Boj_9536.executor": "Run",
     "애플리케이션.Coin_9084.executor": "Run",
     "애플리케이션.Dijkstra.executor": "Run",
@@ -223,7 +224,7 @@
       <recent name="baekjoon.greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Boj_16724">
+  <component name="RunManager" selected="애플리케이션.Boj_9375">
     <configuration name="Boj_16724" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekjoon.unionfind.Boj_16724" />
       <module name="codingTest" />
@@ -250,8 +251,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Boj_7785" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.collections.Boj_7785" />
+    <configuration name="Boj_9375" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.collections.Boj_9375" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -291,11 +292,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Boj_9375" />
         <item itemvalue="애플리케이션.Boj_16724" />
         <item itemvalue="애플리케이션.Boj_2138" />
         <item itemvalue="애플리케이션.Test" />
         <item itemvalue="애플리케이션.Boj_9536" />
-        <item itemvalue="애플리케이션.Boj_7785" />
       </list>
     </recent_temporary>
   </component>
@@ -425,7 +426,7 @@
       <workItem from="1744446020470" duration="132000" />
       <workItem from="1744446158947" duration="22641000" />
       <workItem from="1745056757600" duration="10126000" />
-      <workItem from="1745228606100" duration="7771000" />
+      <workItem from="1745228606100" duration="11351000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2023-01-02&quot;">
       <option name="closed" value="true" />
@@ -669,11 +670,6 @@
           <url>file://$PROJECT_DIR$/src/baekjoon/bfs_dfs/Boj_16928.java</url>
           <line>25</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/baekjoon/unionfind/Boj_16724.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
