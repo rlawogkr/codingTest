@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6fc7de7-9721-4895-a400-00b11de2ab05" name="변경" comment="&quot;Sort&quot;">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/collections/Boj_9375.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/unionfind/Boj_2162.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/unionfind/Boj_24391.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,6 +133,7 @@
     "애플리케이션.Boj_2252.executor": "Run",
     "애플리케이션.Boj_2293.executor": "Run",
     "애플리케이션.Boj_2339.executor": "Run",
+    "애플리케이션.Boj_24391.executor": "Run",
     "애플리케이션.Boj_2482.executor": "Run",
     "애플리케이션.Boj_2493.executor": "Run",
     "애플리케이션.Boj_2573.executor": "Run",
@@ -224,7 +226,7 @@
       <recent name="baekjoon.greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Boj_9375">
+  <component name="RunManager" selected="애플리케이션.Boj_24391">
     <configuration name="Boj_16724" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekjoon.unionfind.Boj_16724" />
       <module name="codingTest" />
@@ -251,12 +253,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Boj_9375" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.collections.Boj_9375" />
+    <configuration name="Boj_24391" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.unionfind.Boj_24391" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.collections.*" />
+          <option name="PATTERN" value="baekjoon.unionfind.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,8 +266,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Boj_9536" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.collections.Boj_9536" />
+    <configuration name="Boj_9375" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.collections.Boj_9375" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -292,11 +294,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Boj_24391" />
         <item itemvalue="애플리케이션.Boj_9375" />
         <item itemvalue="애플리케이션.Boj_16724" />
         <item itemvalue="애플리케이션.Boj_2138" />
         <item itemvalue="애플리케이션.Test" />
-        <item itemvalue="애플리케이션.Boj_9536" />
       </list>
     </recent_temporary>
   </component>
@@ -426,7 +428,7 @@
       <workItem from="1744446020470" duration="132000" />
       <workItem from="1744446158947" duration="22641000" />
       <workItem from="1745056757600" duration="10126000" />
-      <workItem from="1745228606100" duration="11351000" />
+      <workItem from="1745228606100" duration="15331000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2023-01-02&quot;">
       <option name="closed" value="true" />
