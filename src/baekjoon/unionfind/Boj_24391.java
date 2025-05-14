@@ -22,33 +22,35 @@ public class Boj_24391 {
             adjList[v].add(u);
         }
 
-        int[] classRoom = new int[N+1];
+        int[] classCode = new int[N+1];
         int cid = 0;
-        for(int i = 1; i <= N; i++){
-            if(classRoom[i] == 0){
-                cid++;
-                Queue<Integer> queue = new ArrayDeque<>();
 
-                classRoom[i] = cid;
-                queue.add(i);
-                while(!queue.isEmpty()){
-                    int u = queue.poll();
+        for(int i = 1; i <= N; i++){
+            if(classCode[i] == 0){
+                cid++;
+                classCode[i] = cid;
+
+                Queue<Integer> q = new ArrayDeque<>();
+                q.offer(i);
+                while(!q.isEmpty()){
+                    int u = q.poll();
                     for(int v : adjList[u]){
-                        if(classRoom[v] == 0){
-                            classRoom[v] = cid; // 부모와 같은 번호를 부여
-                            queue.add(v);
+                        if(classCode[v] == 0){
+                            classCode[v] = cid;
+                            q.offer(v);
                         }
                     }
                 }
             }
         }
+
         int[] arr = new int[N];
         st = new StringTokenizer(br.readLine());
         for(int i = 0; i < N; i++)arr[i] = Integer.parseInt(st.nextToken());
 
         int cnt = 0;
         for(int i = 0; i < arr.length-1; i++){
-            if(classRoom[arr[i]] != classRoom[arr[i+1]])cnt++;
+            if(classCode[arr[i]] != classCode[arr[i+1]])cnt++;
         }
         System.out.println(cnt);
         br.close();
